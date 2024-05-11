@@ -1,0 +1,30 @@
+\mode<presentation>  
+  \usetheme{Madrid}       % or try Madrid, default, Darmstadt, Warsaw, ...
+  \useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
+
+\useoutertheme[footline=authorinstitutetitle,subsection=false]{smoothbars}
+
+  \useinnertheme{circles}
+
+  \definecolor{UESTCblue}{rgb}{0.094, 0.247, 0.573} % UESTC Blue(primary)
+  \definecolor{UESTCgrey}{rgb}{0.11765, 0.56471, 1} % UESTC grey(secondary)
+  % \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+  
+  \setbeamercolor{palette primary}{bg=UESTCblue,fg=white}
+  \setbeamercolor{palette secondary}{bg=UESTCblue,fg=white}
+  \setbeamercolor{palette tertiary}{bg=UESTCblue,fg=white}
+  \setbeamercolor{palette quaternary}{bg=UESTCblue,fg=white}
+  \setbeamercolor{structure}{fg=UESTCblue} % itemize, enumerate, etc
+  \setbeamercolor{section in toc}{fg=UESTCblue} % TOC sections
+
+  % Override palette coloring with secondary
+  \setbeamercolor{subsection in head/foot}{bg=UESTCgrey,fg=white}
+ % itemize, enumerate, etc. try dove, seahorse, albatross, beaver, crane, ...
+
+  \usefonttheme{serif}    % or try default, structurebold,serif,structuresmallcapsserif ...}
+  % 去掉这行反而可以运行了。。。
+%   \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+
+\mode
+<all>

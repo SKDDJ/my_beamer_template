@@ -1,0 +1,123 @@
+\documentclass[xcolor=dvipsnames, hyperref={colorlinks,citecolor=violet,linkcolor=violet,urlcolor=violet}]{beamer} % dvipsnames gives more built-in colors
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{pgfpages}
+\usepackage{graphicx} 
+\usepackage{booktabs} % For prettier tables
+\usepackage{rotating} % 提供\rotatebox命令
+\usepackage{multirow} % 提供\multirow命令
+\usepackage{colortbl} % 提供\rowcolor命令
+\usepackage{color}    % 如果需要定义自己颜色
+\usepackage{xcolor}
+
+% \usepackage{biblatex} % 导入biblatex包来管理文献
+% \usepackage[natbib=true,style=authoryear,backend=bibtex,useprefix=true]{biblatex}
+% \setbeamercolor*{bibliography entry title}{fg=black}
+% \setbeamercolor*{bibliography entry location}{fg=black}
+% \setbeamercolor*{bibliography entry note}{fg=black}
+% \setbeamertemplate{bibliography item}{}
+% \renewcommand*{\bibfont}{\scriptsize}
+% \addbibresource{references.bib} % 指定.bib文件的位置
+
+\definecolor{LightCyan}{rgb}{0.88,1,1} % 如果需要定义自己的颜色
+
+\titlegraphic{\includegraphics[keepaspectratio, scale=0.07]{logo/uestc.png}}
+\logo{\includegraphics[height=0.07\textwidth]{logo/uestc.png}}
+
+\title[Title]{Paper Title}
+\author[Y.S.]{Yiming Shi\\ \url{https://academic.shiym.top}}
+\institute[UESTC]{University of Electronic Science and Technology of China\\Center for Future Media}
+
+\date{\today}
+
+\usepackage{style/uestc}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+% Table of Content
+% \begin{frame}[plain]{Outline}
+%   \tableofcontents
+% \end{frame}
+
+% reset framenumber counter
+\setcounter{framenumber}{0}
+
+\section{Introduction}
+    \subsection{Motivation}
+        \begin{frame}{Background}
+            \begin{minipage}[c]{0.43\textwidth}
+                minipage1
+            \end{minipage}
+            \hfill % This will add some space between your minipages
+            \begin{minipage}[c]{0.43\textwidth}
+                minipage2
+            \end{minipage}
+        \end{frame}
+
+
+        \begin{frame}{Introduction}{}
+            
+        \end{frame}            
+
+        \begin{frame}{Contribution} 
+            \begin{block}{Significance} 
+                \begin{itemize} 
+                    \item 1
+                \end{itemize} 
+            \end{block} 
+        \end{frame}            
+
+\section{Method}
+    \subsection{Architecture}
+        \begin{frame}{Architecture}
+
+        \end{frame}
+
+
+\section{Experiments}
+    \subsection[short]{Dataset}
+        \begin{frame}{Dataset}
+
+        \end{frame}
+
+    \subsection{Results}
+        \begin{frame}{Results}{}
+            
+        \end{frame}
+
+    \subsection{Ablation}
+        \begin{frame}{Hyperparameters}{}
+
+        \end{frame}
+
+\section{Small Talk}
+
+    \begin{frame}{Limitations \& Futures}
+        \begin{center}
+            \begin{itemize}
+                \item 1
+                \item 2
+            \end{itemize}
+        \end{center}
+    \end{frame}
+    
+    % Thanks
+    \begin{frame}[plain]
+        \begin{center}
+            \textbf{\huge Thank You!}
+            \Large \\Questions?
+        \end{center}
+    \end{frame}
+
+    % \section{References}
+    % References
+    % \begin{frame}[t, allowframebreaks]{References} 
+    %     \printbibliography
+    % \end{frame}
+
+\end{document}
+

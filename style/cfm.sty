@@ -1,0 +1,32 @@
+\mode<presentation>  
+  \usetheme{Madrid}       % or try Madrid, default, Darmstadt, Warsaw, ...
+  \useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
+
+\useoutertheme[footline=authorinstitutetitle,subsection=false]{smoothbars}
+
+  \useinnertheme{circles}
+    
+
+
+  \definecolor{CFMpurple}{rgb}{0.549, 0.365, 0.643} % cfm purple(primary)
+  \definecolor{CFMblue}{rgb}{0.718, 0.511, 0.828} % cfm grey(secondary)
+  % \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+  
+  \setbeamercolor{palette primary}{bg=CFMpurple,fg=white}
+  \setbeamercolor{palette secondary}{bg=CFMpurple,fg=white}
+  \setbeamercolor{palette tertiary}{bg=CFMpurple,fg=white}
+  \setbeamercolor{palette quaternary}{bg=CFMpurple,fg=white}
+  \setbeamercolor{structure}{fg=CFMpurple} % itemize, enumerate, etc
+  \setbeamercolor{section in toc}{fg=CFMpurple} % TOC sections
+
+  % Override palette coloring with secondary
+  \setbeamercolor{subsection in head/foot}{bg=CFMblue,fg=white}
+ % itemize, enumerate, etc. try dove, seahorse, albatross, beaver, crane, ...
+
+  \usefonttheme{serif}    % or try default, structurebold,serif,structuresmallcapsserif ...}
+  % 去掉这行反而可以运行了。。。
+%   \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+
+\mode
+<all>

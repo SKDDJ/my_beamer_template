@@ -1,0 +1,4 @@
+\frametitle{Results}\framesubtitle {GLUE Benchmark}
+            \begin{table}[h]
+                \input{tables/glue}
+            \end{table}
